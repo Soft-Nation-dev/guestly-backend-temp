@@ -40,3 +40,4 @@ jobs:
           node -e "const r=require('/tmp/guestly-native-ready.json');if(!r.success||r.data.database!=='connected'||r.data.storage!=='connected')process.exit(1)"
           curl -fsS http://127.0.0.1:8787/api/v1/rooms > /tmp/guestly-native-rooms.json
           node -e "const r=require('/tmp/guestly-native-rooms.json');if(!r.success||!Array.isArray(r.data)||r.data.length!==0)process.exit(1)"
+          npm run native:verify -- http://127.0.0.1:8787
