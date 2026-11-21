@@ -101,14 +101,12 @@ async function handle(request, env) {
     });
   }
   const url = new URL(request.url);
-  const path = url.pathname.replace(/\\/+$/, '') || '/';
+  const path = url.pathname.replace(/\/+$/, '') || '/';
   if (path.startsWith('/api/v1/auth/')) return handleAuth(request, env, path, origin, respond);
   if (request.method !== 'GET' && request.method !== 'HEAD') {
     return respond(undefined, 'This API feature is not available in the Cloudflare trial yet', 501, origin);
   }
 
-  const url = new URL(request.url);
-  const path = url.pathname.replace(/\/+$/, '') || '/';
   if (path === '/health') {
     return respond({ status: 'ok', database: 'unknown' }, 'Service is healthy', 200, origin);
   }
