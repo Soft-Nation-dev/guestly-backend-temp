@@ -1,0 +1,31 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "guestly-native-trial",
+  "main": "src/cloudflare-native/worker.mjs",
+  "compatibility_date": "2026-11-21",
+  "workers_dev": true,
+  "observability": {
+    "enabled": true
+  },
+  "d1_databases": [
+    {
+      "binding": "GUESTLY_DB",
+      "database_name": "guestly-trial",
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "GUESTLY_PUBLIC_FILES",
+      "bucket_name": "guestly-public-files-trial"
+    },
+    {
+      "binding": "GUESTLY_PRIVATE_FILES",
+      "bucket_name": "guestly-private-files-trial"
+    }
+  ],
+  "vars": {
+    "CORS_ORIGINS": "https://soft-nation-dev.github.io"
+  }
+}

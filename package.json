@@ -10,7 +10,11 @@
     "seed": "node scripts/seed.js",
     "bootstrap:admin": "node scripts/bootstrap-admin.js",
     "import:historical": "node scripts/import-historical.js",
-    "verify:hosted": "node scripts/verify-hosted.js"
+    "verify:hosted": "node scripts/verify-hosted.js",
+    "native:dev": "npx --yes wrangler@4.165.0 dev --config wrangler.native.json",
+    "native:build": "npx --yes wrangler@4.165.0 deploy --dry-run --config wrangler.native.json --outdir .wrangler-native-build",
+    "native:deploy": "npx --yes wrangler@4.165.0 deploy --config wrangler.native.json",
+    "native:migrate:local": "npx --yes wrangler@4.165.0 d1 migrations apply guestly-trial --local --config wrangler.native.json"
   },
   "keywords": [],
   "author": "",
