@@ -159,6 +159,32 @@ describe('Encrypted check-in and simulated access', () => {
     await expect(getAccess(bookingId, user)).rejects.toMatchObject({ statusCode: 404 });
   });
 
+  it('protects the room-key endpoint from staff and other guests', async () => {
+    const path = '/api/v1/roomkeys/' + bookingId;
+    expect((await request(app).get(path)).status).toBe(401);
+    User.findById.mockResolvedValue(actor('staff'));
+    expect((await request(app).get(path).set('Authorization', token('staff'))).status).toBe(403);
+    User.findById.mockResolvedValue(actor('guest'));
+    Booking.findById.mockResolvedValue({ ...booking(), guest: checkinId });
+    expect((await request(app).get(path).set('Authorization', token('guest'))).status).toBe(404);
+    Booking.findById.mockResolvedValue(booking());
+    CheckIn.findOne.mockResolvedValue(checkin('pending'));
+    const result = await request(app).get(path).set('Authorization', token('guest'));
+    expect(result.status).toBe(200);
+    expect(result.body.data).toMatchObject({ code: null, status: 'unavailable', simulated: true });
+    expect(result.headers['cache-control']).toBe('no-store');
+  });
+
+  it('never creates an access key on a repeated approval', async () => {
+    User.findById.mockResolvedValue(actor('staff'));
+    CheckIn.findOneAndUpdate.mockResolvedValue(null);
+    const result = await request(app).patch('/api/v1/checkins/' + bookingId + '/review')
+      .set('Authorization', token('staff')).send({ approved: true, note: '' });
+    expect(result.status).toBe(409);
+    expect(RoomKey.create).not.toHaveBeenCalled();
+    expect(session.endSession).toHaveBeenCalled();
+  });
+
   it('purges encrypted bytes but keeps the check-in status and audit history', async () => {
     expect(await purgeDocuments()).toBe(2);
     const update = CheckIn.updateMany.mock.calls[0][1];
