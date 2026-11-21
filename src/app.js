@@ -22,7 +22,12 @@ app.use(cors({
     return callback(new AppError('Origin not allowed by CORS', 403));
   },
 }));
-app.use(morgan(env.NODE_ENV === 'production' ? 'combined' : 'dev'));
+app.use(morgan((tokens, req, res) => [
+  tokens.method(req, res),
+  tokens.url(req, res),
+  tokens.status(req, res),
+  tokens['response-time'](req, res),
+].filter(Boolean).join(' ')));
 app.use(cookieParser());
 app.use(rateLimit({
   windowMs: 15 * 60 * 1000,
