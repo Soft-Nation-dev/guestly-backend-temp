@@ -19,7 +19,7 @@ describe('Original Data Analyst historical dataset', () => {
       Successful: 379, Refunded: 37, Failed: 42, Pending: 42,
     });
     expect(checked.rows.length).toBe(1931);
-    const sameGuest = checked.rows.filter(row => row.source === 'guests' && row.sourceId === 'G0008');
+    const sameGuest = checked.rows.filter(row => row.source === 'guests' && row.sourceId === 'G0072');
     expect(sameGuest.length).toBeGreaterThan(1);
     expect(new Set(sameGuest.map(row => row.rowKey)).size).toBe(sameGuest.length);
     expect(new Set(checked.rows.map(row => row.source + ':' + row.rowKey)).size).toBe(1931);
