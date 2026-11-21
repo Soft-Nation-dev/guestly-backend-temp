@@ -47,6 +47,15 @@ app.get('/health', (req, res) => {
   });
 });
 
+app.get('/ready', (req, res) => {
+  const connected = mongoose.connection.readyState === 1;
+  return res.status(connected ? 200 : 503).json({
+    success: connected,
+    message: connected ? 'Service is ready' : 'Database is not connected',
+    ...(connected ? { data: { status: 'ready', database: 'connected' } } : {}),
+  });
+});
+
 const moduleRoutes = {
   auth: require('./modules/auth/routes'),
   users: require('./modules/users/routes'),
