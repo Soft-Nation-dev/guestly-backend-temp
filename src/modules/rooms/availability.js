@@ -36,10 +36,10 @@ function peakOccupied(roomId, stay, bookings = []) {
   return peak;
 }
 
-async function activeReservations(roomIds, checkIn, checkOut) {
+async function activeReservations(roomIds, checkIn, checkOut, session = null) {
   if (!roomIds.length || !mongoose.models.Booking) return [];
   const Booking = mongoose.models.Booking;
-  return Booking.find({
+  const query = Booking.find({
     room: { $in: roomIds },
     checkIn: { $lt: checkOut },
     checkOut: { $gt: checkIn },
@@ -47,7 +47,8 @@ async function activeReservations(roomIds, checkIn, checkOut) {
       { status: 'confirmed' },
       { status: 'pending', expiresAt: { $gt: new Date() } },
     ],
-  }).select('room checkIn checkOut quantity guests').lean();
+  }).select('room checkIn checkOut quantity guests');
+  return (session ? query.session(session) : query).lean();
 }
 
 function remainingInventory(room, stay, reservations) {

@@ -56,6 +56,7 @@ beforeEach(() => {
   Hotel.findOne.mockResolvedValue(null);
   Hotel.findOneAndUpdate.mockResolvedValue({ name: 'Guestly Custom', key: 'primary', currency: 'NGN' });
   User.findById.mockResolvedValue({ _id: id, role: 'manager', isActive: true, sessionVersion: 0 });
+  mongoose.model('Booking').find = jest.fn().mockReturnValue({ select: jest.fn().mockReturnValue({ lean: jest.fn().mockResolvedValue([]) }) });
 });
 
 describe('Hotel and room endpoints', () => {
@@ -142,7 +143,7 @@ describe('Hotel and room endpoints', () => {
     const bookings = [
       { room: id, checkIn: dates(1).checkIn, checkOut: dates(6).checkOut, quantity: 2, guests: 2 },
     ];
-    const Booking = mongoose.model('Booking', new mongoose.Schema({}));
+    const Booking = mongoose.model('Booking');
     Booking.find = jest.fn().mockReturnValue({
       select: jest.fn().mockReturnValue({ lean: jest.fn().mockResolvedValue(bookings) }),
     });
@@ -157,7 +158,7 @@ describe('Hotel and room endpoints', () => {
   });
 
   it('prevents inventory or capacity reductions below existing reservations', async () => {
-    if (!mongoose.models.Booking) mongoose.model('Booking', new mongoose.Schema({}));
+
     mongoose.models.Booking.find = jest.fn().mockReturnValue({
       select: jest.fn().mockReturnValue({
         lean: jest.fn().mockResolvedValue([
