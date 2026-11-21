@@ -1,4 +1,3 @@
-const cron = require('node-cron');
 const CheckIn = require('../modules/checkins/model');
 const logger = require('../config/logger');
 
@@ -17,7 +16,7 @@ async function purgeDocuments(now = new Date()) {
 let task = null;
 function start() {
   if (task) return task;
-  task = cron.schedule('0 3 * * *', () => {
+  task = require('node-cron').schedule('0 3 * * *', () => {
     purgeDocuments().catch(error => logger.error('Identity document purge failed', { message: error.message }));
   }, { timezone: 'Africa/Lagos' });
   return task;

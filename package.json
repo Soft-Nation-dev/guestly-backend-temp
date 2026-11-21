@@ -10,7 +10,10 @@
     "seed": "node scripts/seed.js",
     "bootstrap:admin": "node scripts/bootstrap-admin.js",
     "import:historical": "node scripts/import-historical.js",
-    "verify:hosted": "node scripts/verify-hosted.js"
+    "verify:hosted": "node scripts/verify-hosted.js",
+    "cf:dev": "npx --yes wrangler@4.165.0 dev",
+    "cf:build": "npx --yes wrangler@4.165.0 deploy --dry-run --outdir .wrangler-build",
+    "cf:deploy": "npx --yes wrangler@4.165.0 deploy"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,26 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "guestly-api-trial",
+  "main": "src/cloudflare-worker.mjs",
+  "compatibility_date": "2026-11-21",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "workers_dev": true,
+  "observability": {
+    "enabled": true
+  },
+  "triggers": {
+    "crons": [
+      "*/5 * * * *",
+      "0 2 * * *",
+      "15 12 * * *"
+    ]
+  },
+  "vars": {
+    "NODE_ENV": "production",
+    "CORS_ORIGINS": "https://soft-nation-dev.github.io",
+    "JWT_EXPIRES_IN": "1d",
+    "PAYSTACK_CALLBACK_URL": "https://soft-nation-dev.github.io/guestly/payment/return"
+  }
+}

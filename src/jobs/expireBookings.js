@@ -1,13 +1,12 @@
-const cron = require('node-cron');
 const Booking = require('../modules/bookings/model');
 const logger = require('../config/logger');
 const { record } = require('../modules/auditlogs/service');
 
-async function expirePendingBookings() {
+async function expirePendingBookings(limit = 200) {
   const stale = await Booking.find({
     status: 'pending',
     expiresAt: { $lte: new Date() },
-  }).select('_id').limit(200);
+  }).select('_id').limit(limit);
   let expired = 0;
   for (const { _id } of stale) {
     const result = await Booking.updateOne(
@@ -25,7 +24,7 @@ async function expirePendingBookings() {
 let task = null;
 function start() {
   if (task) return task;
-  task = cron.schedule('*/5 * * * *', () => {
+  task = require('node-cron').schedule('*/5 * * * *', () => {
     expirePendingBookings().catch(error => logger.error('expireBookings failed', { message: error.message }));
   });
   return task;
