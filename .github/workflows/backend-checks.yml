@@ -23,3 +23,25 @@ jobs:
       - run: node --check src/app.js
       - run: node --check src/server.js
       - run: npm test
+      - run: node --check src/cloudflare-native/worker.mjs
+      - run: node --check src/cloudflare-native/auth.mjs
+      - run: npm run native:build
+      - run: npm run native:migrate:local
+      - name: Check Cloudflare native Worker
+        run: |
+          printf 'JWT_SECRET="guestly-cloudflare-native-test-secret-must-be-32-characters"\n' > .dev.vars
+          npm run native:dev -- --port 8787 > /tmp/guestly-native.log 2>&1 &
+          pid=$!
+          trap 'kill "$pid" 2>/dev/null || true' EXIT
+          ok=0
+          for attempt in $(seq 1 40); do
+            status=$(curl -s --max-time 2 -o /tmp/guestly-native-ready.json -w '%{http_code}' http://127.0.0.1:8787/ready || true)
+            if [ "$status" = 200 ]; then ok=1; break; fi
+            sleep 1
+          done
+          if [ "$ok" -ne 1 ]; then cat /tmp/guestly-native.log; cat /tmp/guestly-native-ready.json 2>/dev/null || true; exit 1; fi
+          node -e "const r=require('/tmp/guestly-native-ready.json');if(!r.success||r.data.database!=='connected'||r.data.storage!=='connected')process.exit(1)"
+          curl -fsS http://127.0.0.1:8787/api/v1/rooms > /tmp/guestly-native-rooms.json
+          node -e "const r=require('/tmp/guestly-native-rooms.json');if(!r.success||!Array.isArray(r.data)||r.data.length!==0)process.exit(1)"
+          npm run native:verify -- http://127.0.0.1:8787
+          node scripts/smoke-cloudflare-auth.mjs http://127.0.0.1:8787
