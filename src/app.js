@@ -8,6 +8,7 @@ const mongoose = require('mongoose');
 const env = require('./config/env');
 const notFound = require('./middleware/notFound');
 const errorHandler = require('./middleware/errorHandler');
+const AppError = require('./utils/AppError');
 
 const app = express();
 app.set('trust proxy', 1);
@@ -18,7 +19,7 @@ app.use(cors({
     if (!origin || env.CORS_ORIGINS.includes(origin)) {
       return callback(null, true);
     }
-    return callback(new Error('Origin not allowed by CORS'));
+    return callback(new AppError('Origin not allowed by CORS', 403));
   },
 }));
 app.use(morgan(env.NODE_ENV === 'production' ? 'combined' : 'dev'));
@@ -31,7 +32,6 @@ app.use(rateLimit({
   skip: (req) => req.originalUrl.startsWith('/api/v1/payments/webhook'),
 }));
 
-// Keep the Paystack webhook body raw so its signature can be verified later.
 app.use('/api/v1/payments/webhook', express.raw({ type: 'application/json' }));
 app.use(express.json());
 
