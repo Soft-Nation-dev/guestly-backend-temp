@@ -53,6 +53,7 @@ export default {
       return await handler.fetch(request, env, context);
     } catch (error) {
       console.error('Guestly Worker request failed', error);
+      if (env.WORKER_DIAGNOSTICS === 'true') return Response.json({ success: false, message: error.message, stack: String(error.stack) }, { status: 503 });
       return Response.json({ success: false, message: 'Service temporarily unavailable' }, { status: 503 });
     }
   },

@@ -26,7 +26,7 @@ jobs:
       - run: npm run cf:build
       - name: Smoke test Cloudflare Worker locally
         run: |
-          printf 'MONGODB_URI="mongodb://127.0.0.1:27017/guestly-cloudflare-test"\nJWT_SECRET="guestly-cloudflare-local-test-secret-32-characters"\nPAYSTACK_SECRET_KEY="sk_test_fixture_key"\nCHECKIN_DOCUMENT_KEY="%s"\n' "$(node -e "process.stdout.write(require('node:crypto').randomBytes(32).toString('base64'))")" > .dev.vars
+          printf 'MONGODB_URI="mongodb://127.0.0.1:27017/guestly-cloudflare-test"\nJWT_SECRET="guestly-cloudflare-local-test-secret-32-characters"\nPAYSTACK_SECRET_KEY="sk_test_fixture_key"\nCHECKIN_DOCUMENT_KEY="%s"\nWORKER_DIAGNOSTICS="true"\n' "$(node -e "process.stdout.write(require('node:crypto').randomBytes(32).toString('base64'))")" > .dev.vars
           npm run cf:dev -- --port 8787 > /tmp/guestly-worker.log 2>&1 &
           worker_pid=$!
           trap 'kill "$worker_pid" 2>/dev/null || true' EXIT
@@ -38,6 +38,8 @@ jobs:
               break
             fi
             if [ "$status" = 503 ] || [ "$status" = 500 ]; then
+              cat /tmp/guestly-worker-health.json
+              sleep 2
               cat /tmp/guestly-worker.log
               exit 1
             fi
