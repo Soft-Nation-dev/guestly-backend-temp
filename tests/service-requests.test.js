@@ -75,7 +75,7 @@ describe('Group 6 service catalogue and request endpoints', () => {
     expect(Category.bulkWrite.mock.calls.length).toBeLessThanOrEqual(1);
     if (Category.bulkWrite.mock.calls.length) {
       expect(Category.bulkWrite.mock.calls[0][0]).toEqual(expect.arrayContaining([expect.objectContaining({
-        updateOne: expect.objectContaining({ filter: { nameKey: 'housekeeping' }, upsert: true }),
+        updateOne: expect.objectContaining({ filter: { seedKey: 'housekeeping' }, upsert: true }),
       })]));
     }
   });

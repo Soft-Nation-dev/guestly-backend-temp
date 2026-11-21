@@ -18,8 +18,8 @@ async function ensureDefaults() {
   if (!seeding) {
     seeding = Category.bulkWrite(defaults.map(item => ({
       updateOne: {
-        filter: { nameKey: keyOf(item.name) },
-        update: { $setOnInsert: { ...item, nameKey: keyOf(item.name), active: true } },
+        filter: { seedKey: keyOf(item.name) },
+        update: { $setOnInsert: { ...item, seedKey: keyOf(item.name), nameKey: keyOf(item.name), active: true } },
         upsert: true,
       },
     }))).catch(error => {
