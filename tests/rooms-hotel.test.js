@@ -6,6 +6,7 @@ jest.mock('../src/modules/users/model', () => ({ findById: jest.fn() }));
 jest.mock('../src/modules/rooms/model', () => ({
   find: jest.fn(),
   findOne: jest.fn(),
+  findOneAndUpdate: jest.fn(),
   create: jest.fn(),
 }));
 jest.mock('../src/modules/hotels/model', () => ({
@@ -52,11 +53,16 @@ beforeEach(() => {
   room.capacity = 2;
   Room.find.mockReturnValue({ sort: jest.fn().mockResolvedValue([room]) });
   Room.findOne.mockResolvedValue(room);
+  Room.findOneAndUpdate.mockResolvedValue(room);
+  jest.spyOn(mongoose, 'startSession').mockResolvedValue({ withTransaction: async callback => callback(), endSession: async () => {} });
   Room.create.mockImplementation(async data => ({ ...data, _id: id }));
   Hotel.findOne.mockResolvedValue(null);
   Hotel.findOneAndUpdate.mockResolvedValue({ name: 'Guestly Custom', key: 'primary', currency: 'NGN' });
   User.findById.mockResolvedValue({ _id: id, role: 'manager', isActive: true, sessionVersion: 0 });
+  mongoose.model('Booking').find = jest.fn().mockReturnValue({ select: jest.fn().mockReturnValue({ lean: jest.fn().mockResolvedValue([]) }) });
 });
+
+afterEach(() => { jest.restoreAllMocks(); });
 
 describe('Hotel and room endpoints', () => {
   it('returns the single-hotel defaults before seeding', async () => {
@@ -142,7 +148,7 @@ describe('Hotel and room endpoints', () => {
     const bookings = [
       { room: id, checkIn: dates(1).checkIn, checkOut: dates(6).checkOut, quantity: 2, guests: 2 },
     ];
-    const Booking = mongoose.model('Booking', new mongoose.Schema({}));
+    const Booking = mongoose.model('Booking');
     Booking.find = jest.fn().mockReturnValue({
       select: jest.fn().mockReturnValue({ lean: jest.fn().mockResolvedValue(bookings) }),
     });
@@ -157,13 +163,12 @@ describe('Hotel and room endpoints', () => {
   });
 
   it('prevents inventory or capacity reductions below existing reservations', async () => {
-    if (!mongoose.models.Booking) mongoose.model('Booking', new mongoose.Schema({}));
+
+    const reserved = [{ room: id, checkIn: dates(1).checkIn, checkOut: dates(10).checkOut, quantity: 2, guests: 2 }];
+    const query = { lean: jest.fn().mockResolvedValue(reserved) };
+    query.session = jest.fn().mockReturnValue(query);
     mongoose.models.Booking.find = jest.fn().mockReturnValue({
-      select: jest.fn().mockReturnValue({
-        lean: jest.fn().mockResolvedValue([
-          { room: id, checkIn: dates(1).checkIn, checkOut: dates(10).checkOut, quantity: 2, guests: 2 },
-        ]),
-      }),
+      select: jest.fn().mockReturnValue(query),
     });
     const inventory = await request(app).patch('/api/v1/rooms/standard-cozy-haven')
       .set('Authorization', token('manager')).send({ inventory: 1 });

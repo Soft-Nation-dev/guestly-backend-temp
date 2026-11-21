@@ -14,6 +14,7 @@ const roomSchema = new mongoose.Schema({
   description: { type: String, required: true, trim: true, maxlength: 1200 },
   inventory: { type: Number, required: true, min: 0, max: 1000 },
   featured: { type: Boolean, default: false },
+  bookingsRevision: { type: Number, default: 0, min: 0 },
 }, { timestamps: true });
 
 module.exports = mongoose.model('Room', roomSchema);
