@@ -19,6 +19,8 @@ const checkInSchema = new mongoose.Schema({
   documentEncrypted: { type: Buffer, required: true, select: false },
   documentIv: { type: Buffer, required: true, select: false },
   documentTag: { type: Buffer, required: true, select: false },
+  documentDeleteAt: { type: Date, required: true, index: true },
+  documentDeletedAt: { type: Date, default: null },
   status: { type: String, enum: ['pending', 'approved', 'rejected'], required: true, default: 'pending', index: true },
   submittedAt: { type: Date, required: true, default: Date.now },
   reviewedAt: { type: Date, default: null },
