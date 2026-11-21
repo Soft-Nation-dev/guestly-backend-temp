@@ -1,0 +1,3019 @@
+[
+  {
+    "Guest_ID": "G0008",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "UK",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0072",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "UK",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0155",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0018",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "UK",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0172",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0015",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "UK",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0165",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0036",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0120",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0068",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "Canada",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0005",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "South Africa",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0033",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0172",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0019",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0147",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0014",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0064",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "Canada",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0016",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "South Africa",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0056",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "South Africa",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0021",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0145",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "Ghana",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0019",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0041",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0040",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0071",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "South Africa",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0177",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "UK",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0054",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0007",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0118",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0138",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0131",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "Canada",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0171",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0108",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0083",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0086",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0162",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0179",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0130",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0062",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0040",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "UK",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0006",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0112",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0035",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0021",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0160",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "South Africa",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0030",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0161",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "UK",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0088",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "UK",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0138",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0146",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0049",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "UK",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0178",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "Canada",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0079",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0071",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0142",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0123",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "UK",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0107",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "UK",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0068",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0074",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "Ghana",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0069",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "Canada",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0070",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0148",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "South Africa",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0086",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0083",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0014",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0142",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "South Africa",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0107",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "Ghana",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0107",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0124",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "Ghana",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0106",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0113",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "UK",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0085",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0026",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0106",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "South Africa",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0066",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0177",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0169",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0159",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0045",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0087",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0173",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0017",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0061",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0006",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "USA",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0038",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "Canada",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0005",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0116",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "South Africa",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0111",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0025",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0096",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0154",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0080",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0108",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0114",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0152",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0031",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "Canada",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0011",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0084",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0057",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0066",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "UK",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0145",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0119",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0147",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "USA",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0011",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0162",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0168",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0131",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0026",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "South Africa",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0094",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0147",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0096",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "Canada",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0090",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0167",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0039",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0128",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0022",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0005",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0179",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0140",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0103",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0047",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0091",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0094",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0115",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "Canada",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0017",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0147",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0019",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "UK",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0015",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "South Africa",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0163",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0155",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0128",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0156",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0069",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0081",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0056",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0094",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0141",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "Ghana",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0012",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "USA",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0158",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0029",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0044",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0129",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "Ghana",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0088",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0126",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0074",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "UK",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0151",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "South Africa",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0036",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "USA",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0060",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0146",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0118",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0023",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0147",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "UK",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0121",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0130",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0115",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "South Africa",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0001",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "USA",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0059",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0153",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0075",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0143",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0048",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0053",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "Ghana",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0053",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0120",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "USA",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0150",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0126",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0020",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0158",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0179",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0021",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0097",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0054",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0036",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0070",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "Ghana",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0064",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "USA",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0070",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0153",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0036",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0064",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0167",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "Canada",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0084",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0054",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "Ghana",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0019",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0169",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0133",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0022",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "USA",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0018",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0119",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0055",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "UK",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0136",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0173",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0099",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0092",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "South Africa",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0126",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0127",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "Canada",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0168",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "USA",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0157",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0075",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0024",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0092",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0088",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "Canada",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0034",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0180",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0088",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0035",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0114",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "Canada",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0064",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0029",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0045",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0107",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0156",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0069",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0093",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "Canada",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0001",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0107",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0120",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0095",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0169",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0060",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0112",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "UK",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0150",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "USA",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0013",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0016",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0114",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "South Africa",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0175",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "Ghana",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0106",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0092",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0100",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0145",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0085",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "Canada",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0019",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "Ghana",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0144",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0101",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "South Africa",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0082",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "Canada",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0113",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0009",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0158",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0139",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0076",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0170",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0138",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0115",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "Canada",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0018",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0010",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "USA",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0069",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "Ghana",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0041",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "Canada",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0117",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0013",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0166",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0134",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0071",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0036",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "UK",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0047",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0039",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0081",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0174",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0077",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0104",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0066",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0053",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "UK",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0054",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0026",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0081",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0176",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0133",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "Canada",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0041",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0117",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0163",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0051",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0151",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "Canada",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0033",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0116",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "UK",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0075",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "Ghana",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0137",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0061",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0166",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0110",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0153",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "USA",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0140",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0025",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0067",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0017",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "South Africa",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0170",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0166",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0089",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "South Africa",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0014",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0044",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "South Africa",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0092",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "Ghana",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0161",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "South Africa",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0139",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "Ghana",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0170",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "UK",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0125",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "USA",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0083",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "Canada",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0020",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "Ghana",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0020",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "Ghana",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0124",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0011",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "USA",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0156",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0088",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0046",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0134",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0123",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0134",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0109",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0148",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0158",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0001",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0144",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0019",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "Ghana",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0063",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "Ghana",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0081",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0046",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0068",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0139",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0148",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0179",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0061",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0072",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0039",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0042",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "Canada",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0032",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0082",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0006",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "USA",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0135",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "Canada",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0135",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "UK",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0152",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "Ghana",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0067",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0111",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0097",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "USA",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0137",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "Canada",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0047",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0025",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0077",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "South Africa",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0063",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0087",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0006",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0090",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "Ghana",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0001",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0052",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0015",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0050",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0027",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0084",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "Ghana",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0115",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "Ghana",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0006",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0150",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "South Africa",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0177",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "UK",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0031",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0013",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0051",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0089",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "USA",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0040",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0085",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0170",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "Ghana",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0048",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0091",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0101",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "USA",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0053",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "South Africa",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0041",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0078",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0060",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0126",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0113",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0147",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0013",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "UK",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0052",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0080",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0161",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "USA",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0013",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "South Africa",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0082",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0157",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0088",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0040",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0085",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0079",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0026",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0070",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0073",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0023",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0021",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0058",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0044",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0163",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0174",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0140",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "UK",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0131",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0140",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0134",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "Canada",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0121",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0149",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0158",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0067",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "Canada",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0106",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0004",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0050",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0073",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0034",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0178",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0018",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0027",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0069",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "USA",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0099",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0088",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0168",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0180",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "South Africa",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0153",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0152",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0011",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0122",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0119",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "USA",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0019",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0134",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0057",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0179",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0024",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0095",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0086",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0137",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0071",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "Yes",
+    "Country": "Ghana",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0073",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "USA",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0085",
+    "Guest_Segment": "Business",
+    "Returning_Guest": "No",
+    "Country": "UAE",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0142",
+    "Guest_Segment": "Group",
+    "Returning_Guest": "Yes",
+    "Country": "Nigeria",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0093",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "South Africa",
+    "Preferred_Service": "Spa"
+  },
+  {
+    "Guest_ID": "G0114",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "Ghana",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0017",
+    "Guest_Segment": "Solo",
+    "Returning_Guest": "No",
+    "Country": "Nigeria",
+    "Preferred_Service": "Room Service"
+  },
+  {
+    "Guest_ID": "G0098",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0149",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "Canada",
+    "Preferred_Service": "Airport Transfer"
+  },
+  {
+    "Guest_ID": "G0038",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "No",
+    "Country": "UK",
+    "Preferred_Service": "Laundry"
+  },
+  {
+    "Guest_ID": "G0164",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "Yes",
+    "Country": "USA",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0070",
+    "Guest_Segment": "Couple",
+    "Returning_Guest": "No",
+    "Country": "Ghana",
+    "Preferred_Service": "Breakfast"
+  },
+  {
+    "Guest_ID": "G0042",
+    "Guest_Segment": "Family",
+    "Returning_Guest": "Yes",
+    "Country": "UAE",
+    "Preferred_Service": "Spa"
+  }
+]
