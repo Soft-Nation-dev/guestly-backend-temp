@@ -57,6 +57,7 @@ const moduleRoutes = {
   checkins: require('./modules/checkins/routes'),
   roomkeys: require('./modules/roomkeys/routes'),
   servicerequests: require('./modules/servicerequests/routes'),
+  concierge: require('./modules/concierge/routes'),
   auditlogs: require('./modules/auditlogs/routes'),
 };
 
