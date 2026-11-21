@@ -6,6 +6,7 @@ jest.mock('../src/modules/users/model', () => ({ findById: jest.fn() }));
 jest.mock('../src/modules/rooms/model', () => ({
   find: jest.fn(),
   findOne: jest.fn(),
+  findOneAndUpdate: jest.fn(),
   create: jest.fn(),
 }));
 jest.mock('../src/modules/hotels/model', () => ({
@@ -52,12 +53,16 @@ beforeEach(() => {
   room.capacity = 2;
   Room.find.mockReturnValue({ sort: jest.fn().mockResolvedValue([room]) });
   Room.findOne.mockResolvedValue(room);
+  Room.findOneAndUpdate.mockResolvedValue(room);
+  jest.spyOn(mongoose, 'startSession').mockResolvedValue({ withTransaction: async callback => callback(), endSession: async () => {} });
   Room.create.mockImplementation(async data => ({ ...data, _id: id }));
   Hotel.findOne.mockResolvedValue(null);
   Hotel.findOneAndUpdate.mockResolvedValue({ name: 'Guestly Custom', key: 'primary', currency: 'NGN' });
   User.findById.mockResolvedValue({ _id: id, role: 'manager', isActive: true, sessionVersion: 0 });
   mongoose.model('Booking').find = jest.fn().mockReturnValue({ select: jest.fn().mockReturnValue({ lean: jest.fn().mockResolvedValue([]) }) });
 });
+
+afterEach(() => { jest.restoreAllMocks(); });
 
 describe('Hotel and room endpoints', () => {
   it('returns the single-hotel defaults before seeding', async () => {
