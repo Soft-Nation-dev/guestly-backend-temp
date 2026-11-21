@@ -3,6 +3,7 @@ process.env.MONGODB_URI = 'mongodb://127.0.0.1:27017/guestly-integration-test';
 process.env.JWT_SECRET = 'integration-test-secret-at-least-32-characters';
 
 const mongoose = require('mongoose');
+const os = require('node:os');
 const request = require('supertest');
 const { MongoMemoryReplSet } = require('mongodb-memory-server');
 const app = require('../src/app');
@@ -19,7 +20,7 @@ beforeAll(async () => {
   replicaSet = await MongoMemoryReplSet.create({
     replSet: { count: 1, storageEngine: 'wiredTiger' },
   });
-  await mongoose.connect(replicaSet.getUri(), { dbName: 'guestly-integration' });
+  await mongoose.connect(replicaSet.getUri(), { dbName: 'guestly-integration', runtimeAdapters: { os } });
   await Promise.all([Historical.init(), Booking.init(), Payment.init()]);
 });
 
