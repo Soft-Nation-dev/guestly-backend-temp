@@ -23,6 +23,8 @@ jobs:
       - run: node --check src/app.js
       - run: node --check src/server.js
       - run: npm test
+      - run: node --check src/cloudflare-native/worker.mjs
+      - run: node --check src/cloudflare-native/auth.mjs
       - run: npm run native:build
       - run: npm run native:migrate:local
       - name: Check Cloudflare native Worker
