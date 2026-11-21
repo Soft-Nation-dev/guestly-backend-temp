@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const env = require('../src/config/env');
 const Historical = require('../src/modules/historical/model');
 const { validateSources } = require('../src/modules/historical/validation');
 
@@ -44,7 +43,10 @@ async function main() {
   const args = process.argv.slice(2);
   if (args.some(arg => !['--apply', '--dry-run'].includes(arg))) throw new Error('Only --apply and --dry-run are supported');
   const apply = args.includes('--apply') && !args.includes('--dry-run');
-  if (apply) await mongoose.connect(env.MONGODB_URI);
+  if (apply) {
+    const env = require('../src/config/env');
+    await mongoose.connect(env.MONGODB_URI);
+  }
   try {
     const report = await importHistorical({ apply });
     process.stdout.write(JSON.stringify(report, null, 2) + '\n');
