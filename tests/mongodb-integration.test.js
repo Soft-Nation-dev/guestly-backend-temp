@@ -61,14 +61,14 @@ describe('MongoDB deployment checks', () => {
     const guest = new mongoose.Types.ObjectId();
     const room = new mongoose.Types.ObjectId();
     const booking = await Booking.create({
-      guest, room, requestId: 'group8-transaction-check',
+      guest, room, requestId: 'release-transaction-check',
       roomSlug: 'standard-cozy-haven', roomName: 'Standard Cozy Haven',
       guestName: 'Test Guest', checkIn: '2026-12-01', checkOut: '2026-12-03',
       guests: 1, nightlyRate: 55000, totalAmount: 11000000, currency: 'NGN',
       status: 'pending', expiresAt: new Date(Date.now() + 600000),
     });
     const payment = await Payment.create({
-      booking: booking._id, guest, reference: 'GST-GROUP8-TEST-01',
+      booking: booking._id, guest, reference: 'GST-RELEASE-TEST-01',
       amount: booking.totalAmount, currency: 'NGN', status: 'pending',
     });
     const session = await mongoose.startSession();
@@ -91,7 +91,7 @@ describe('MongoDB deployment checks', () => {
     expect((await Booking.findById(booking._id)).status).toBe('confirmed');
     expect((await Payment.findById(payment._id)).status).toBe('success');
     await expect(Payment.create({
-      booking: booking._id, guest, reference: 'GST-GROUP8-TEST-02',
+      booking: booking._id, guest, reference: 'GST-RELEASE-TEST-02',
       amount: booking.totalAmount, currency: 'NGN', status: 'success',
     })).rejects.toThrow(/E11000/);
   });
