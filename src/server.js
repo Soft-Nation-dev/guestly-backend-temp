@@ -10,6 +10,7 @@ async function startServer() {
   if (env.NODE_ENV !== 'test') {
     require('./jobs/expireBookings').start();
     require('./jobs/purgeCheckinDocuments').start();
+    require('./jobs/reconcileLoyalty').start();
   }
 
   const server = http.createServer(app);

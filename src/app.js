@@ -59,6 +59,9 @@ const moduleRoutes = {
   servicerequests: require('./modules/servicerequests/routes'),
   concierge: require('./modules/concierge/routes'),
   auditlogs: require('./modules/auditlogs/routes'),
+  reports: require('./modules/reports/routes'),
+  loyalty: require('./modules/loyalty/routes'),
+  recommendations: require('./modules/recommendations/routes'),
 };
 
 Object.entries(moduleRoutes).forEach(([name, router]) => {

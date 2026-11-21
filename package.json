@@ -8,7 +8,8 @@
     "dev": "nodemon src/server.js",
     "test": "jest --runInBand",
     "seed": "node scripts/seed.js",
-    "bootstrap:admin": "node scripts/bootstrap-admin.js"
+    "bootstrap:admin": "node scripts/bootstrap-admin.js",
+    "import:historical": "node scripts/import-historical.js"
   },
   "keywords": [],
   "author": "",
