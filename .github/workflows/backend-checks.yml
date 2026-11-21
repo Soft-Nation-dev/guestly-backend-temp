@@ -27,6 +27,7 @@ jobs:
       - run: npm run native:migrate:local
       - name: Check Cloudflare native Worker
         run: |
+          printf 'JWT_SECRET="guestly-cloudflare-native-test-secret-must-be-32-characters"\n' > .dev.vars
           npm run native:dev -- --port 8787 > /tmp/guestly-native.log 2>&1 &
           pid=$!
           trap 'kill "$pid" 2>/dev/null || true' EXIT
@@ -41,3 +42,4 @@ jobs:
           curl -fsS http://127.0.0.1:8787/api/v1/rooms > /tmp/guestly-native-rooms.json
           node -e "const r=require('/tmp/guestly-native-rooms.json');if(!r.success||!Array.isArray(r.data)||r.data.length!==0)process.exit(1)"
           npm run native:verify -- http://127.0.0.1:8787
+          node scripts/smoke-cloudflare-auth.mjs http://127.0.0.1:8787

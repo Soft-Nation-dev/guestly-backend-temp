@@ -1,4 +1,6 @@
-const corsMethods = 'GET,HEAD,OPTIONS';
+import { handleAuth } from './auth.mjs';
+
+const corsMethods = 'GET,HEAD,POST,PATCH,OPTIONS';
 const corsHeaders = origin => ({
   'Access-Control-Allow-Origin': origin || 'null',
   'Access-Control-Allow-Methods': corsMethods,
@@ -98,6 +100,9 @@ async function handle(request, env) {
       headers: { ...corsHeaders(origin), 'Access-Control-Max-Age': '600' },
     });
   }
+  const url = new URL(request.url);
+  const path = url.pathname.replace(/\\/+$/, '') || '/';
+  if (path.startsWith('/api/v1/auth/')) return handleAuth(request, env, path, origin, respond);
   if (request.method !== 'GET' && request.method !== 'HEAD') {
     return respond(undefined, 'This API feature is not available in the Cloudflare trial yet', 501, origin);
   }

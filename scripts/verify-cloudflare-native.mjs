@@ -23,8 +23,8 @@ if (ready.data?.database !== 'connected' || ready.data?.storage !== 'connected')
 const rooms = await check('/api/v1/rooms', 200);
 if (!Array.isArray(rooms.data)) throw new Error('Rooms endpoint failed');
 
-const auth = await check('/api/v1/auth/me', 501);
-if (auth.success !== false) throw new Error('Unmigrated routes should not claim success');
+const auth = await check('/api/v1/auth/me', 401);
+if (auth.success !== false) throw new Error('Anonymous profile access should be denied');
 
 process.stdout.write('Cloudflare trial, D1 and R2 readiness checks passed.\n');
 process.stdout.write('Auth, booking, payment and file-upload APIs are not migrated yet. Do not connect the live frontend.\n');

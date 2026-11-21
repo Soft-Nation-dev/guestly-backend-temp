@@ -2,13 +2,13 @@ const encoder = new TextEncoder();
 const iterations = 600000;
 const expirySeconds = 86400;
 const dummyHash = 'pbkdf2_sha256$600000$AAAAAAAAAAAAAAAAAAAAAA$AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA';
-const emailPattern = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;
+const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 function base64url(value) {
   const bytes = value instanceof Uint8Array ? value : new Uint8Array(value);
   let chars = '';
   for (const byte of bytes) chars += String.fromCharCode(byte);
-  return btoa(chars).replace(/\\+/g, '-').replace(/\\//g, '_').replace(/=+$/g, '');
+  return btoa(chars).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/g, '');
 }
 
 function fromBase64url(value) {
