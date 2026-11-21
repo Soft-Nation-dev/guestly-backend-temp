@@ -52,7 +52,7 @@ export default {
       const handler = await gateway();
       return await handler.fetch(request, env, context);
     } catch (error) {
-      console.error('Guestly Worker request failed', error.message);
+      console.error('Guestly Worker request failed', error);
       return Response.json({ success: false, message: 'Service temporarily unavailable' }, { status: 503 });
     }
   },

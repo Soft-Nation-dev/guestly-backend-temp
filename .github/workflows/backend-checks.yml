@@ -32,9 +32,14 @@ jobs:
           trap 'kill "$worker_pid" 2>/dev/null || true' EXIT
           ready=0
           for attempt in $(seq 1 45); do
-            if curl -fsS --max-time 2 http://127.0.0.1:8787/health > /tmp/guestly-worker-health.json; then
+            status=$(curl -sS --max-time 2 -o /tmp/guestly-worker-health.json -w '%{http_code}' http://127.0.0.1:8787/health || true)
+            if [ "$status" = 200 ]; then
               ready=1
               break
+            fi
+            if [ "$status" = 503 ] || [ "$status" = 500 ]; then
+              cat /tmp/guestly-worker.log
+              exit 1
             fi
             sleep 1
           done
