@@ -164,12 +164,11 @@ describe('Hotel and room endpoints', () => {
 
   it('prevents inventory or capacity reductions below existing reservations', async () => {
 
+    const reserved = [{ room: id, checkIn: dates(1).checkIn, checkOut: dates(10).checkOut, quantity: 2, guests: 2 }];
+    const query = { lean: jest.fn().mockResolvedValue(reserved) };
+    query.session = jest.fn().mockReturnValue(query);
     mongoose.models.Booking.find = jest.fn().mockReturnValue({
-      select: jest.fn().mockReturnValue({
-        lean: jest.fn().mockResolvedValue([
-          { room: id, checkIn: dates(1).checkIn, checkOut: dates(10).checkOut, quantity: 2, guests: 2 },
-        ]),
-      }),
+      select: jest.fn().mockReturnValue(query),
     });
     const inventory = await request(app).patch('/api/v1/rooms/standard-cozy-haven')
       .set('Authorization', token('manager')).send({ inventory: 1 });
