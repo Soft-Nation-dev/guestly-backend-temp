@@ -24,11 +24,12 @@ const { record } = require('../src/modules/auditlogs/service');
 
 const guestId = '507f1f77bcf86cd799439011';
 const staffId = '507f1f77bcf86cd799439012';
+const managerId = '507f1f77bcf86cd799439013';
 const bookingId = '507f1f77bcf86cd799439022';
 const categoryId = '507f1f77bcf86cd799439033';
 const reqId = '507f1f77bcf86cd799439044';
 const actor = role => ({
-  _id: role === 'guest' ? guestId : staffId, role, firstName: 'Amina',
+  _id: role === 'guest' ? guestId : role === 'manager' ? managerId : staffId, role, firstName: 'Amina',
   lastName: 'Bello', isActive: true, sessionVersion: 0,
 });
 const token = role => 'Bearer ' + jwt.sign({ id: actor(role)._id, role, sessionVersion: 0 }, process.env.JWT_SECRET);
@@ -51,7 +52,7 @@ const service = status => ({
 
 beforeEach(() => {
   jest.clearAllMocks();
-  User.findById.mockImplementation(async id => String(id) === guestId ? actor('guest') : actor('staff'));
+  User.findById.mockImplementation(async id => String(id) === guestId ? actor('guest') : String(id) === managerId ? actor('manager') : actor('staff'));
   Booking.findById.mockResolvedValue(booking());
   Category.bulkWrite.mockResolvedValue({ acknowledged: true });
   Category.find.mockReturnValue({ sort: jest.fn().mockResolvedValue([category()]) });

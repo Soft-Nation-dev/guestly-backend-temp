@@ -16,9 +16,10 @@ const Message = require('../src/modules/concierge/model');
 const guestId = '507f1f77bcf86cd799439011';
 const otherGuest = '507f1f77bcf86cd799439077';
 const staffId = '507f1f77bcf86cd799439012';
+const managerId = '507f1f77bcf86cd799439013';
 const messageId = '507f1f77bcf86cd799439033';
 const person = role => ({
-  _id: role === 'guest' ? guestId : staffId, role,
+  _id: role === 'guest' ? guestId : role === 'manager' ? managerId : staffId, role,
   firstName: role === 'guest' ? 'Alex' : 'Amina',
   lastName: role === 'guest' ? 'Morgan' : 'Bello',
   isActive: true, sessionVersion: 0,
@@ -32,7 +33,7 @@ const message = (sender = 'guest') => ({
 
 beforeEach(() => {
   jest.clearAllMocks();
-  User.findById.mockImplementation(async id => String(id) === guestId ? person('guest') : person('staff'));
+  User.findById.mockImplementation(async id => String(id) === guestId ? person('guest') : String(id) === managerId ? person('manager') : person('staff'));
   Message.create.mockImplementation(async data => ({ ...data, _id: messageId, createdAt: new Date() }));
   Message.exists.mockResolvedValue({ _id: messageId });
   Message.find.mockReturnValue({ sort: () => ({ skip: () => ({ limit: async () => [message()] }) }) });
