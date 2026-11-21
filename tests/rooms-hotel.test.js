@@ -137,6 +137,43 @@ describe('Hotel and room endpoints', () => {
     expect(invalid.status).toBe(400);
   });
 
+
+  it('subtracts confirmed reservations and unexpired holds from available rooms', async () => {
+    const bookings = [
+      { room: id, checkIn: dates(1).checkIn, checkOut: dates(6).checkOut, quantity: 2, guests: 2 },
+    ];
+    const Booking = mongoose.model('Booking', new mongoose.Schema({}));
+    Booking.find = jest.fn().mockReturnValue({
+      select: jest.fn().mockReturnValue({ lean: jest.fn().mockResolvedValue(bookings) }),
+    });
+    const stay = dates(2);
+    const response = await request(app).get('/api/v1/rooms/availability').query({ ...stay, guests: 2 });
+    expect(response.status).toBe(200);
+    expect(response.body.data[0].availableInventory).toBe(1);
+    expect(Booking.find).toHaveBeenCalledWith(expect.objectContaining({
+      room: { $in: [id] },
+      $or: expect.arrayContaining([{ status: 'confirmed' }]),
+    }));
+  });
+
+  it('prevents inventory or capacity reductions below existing reservations', async () => {
+    if (!mongoose.models.Booking) mongoose.model('Booking', new mongoose.Schema({}));
+    mongoose.models.Booking.find = jest.fn().mockReturnValue({
+      select: jest.fn().mockReturnValue({
+        lean: jest.fn().mockResolvedValue([
+          { room: id, checkIn: dates(1).checkIn, checkOut: dates(10).checkOut, quantity: 2, guests: 2 },
+        ]),
+      }),
+    });
+    const inventory = await request(app).patch('/api/v1/rooms/standard-cozy-haven')
+      .set('Authorization', token('manager')).send({ inventory: 1 });
+    expect(inventory.status).toBe(409);
+    const capacity = await request(app).patch('/api/v1/rooms/standard-cozy-haven')
+      .set('Authorization', token('manager')).send({ capacity: 1 });
+    expect(capacity.status).toBe(409);
+    expect(room.save).not.toHaveBeenCalled();
+  });
+
   it('does not permit backdated or overly long stays', () => {
     expect(() => validateStay({ checkIn: '2020-01-01', checkOut: '2020-01-03' })).toThrow();
     expect(() => validateStay({ checkIn: '2027-01-01', checkOut: '2029-01-01' })).toThrow();

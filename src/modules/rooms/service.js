@@ -60,9 +60,7 @@ async function updateRoom(slug, changes) {
   const capacity = changes.capacity ?? room.capacity;
   if (inventory < room.inventory || capacity < room.capacity) {
     const from = localToday();
-    const max = new Date(from + 'T12:00:00Z');
-    max.setUTCFullYear(max.getUTCFullYear() + 2);
-    const to = max.toISOString().slice(0, 10);
+    const to = '9999-12-31';
     const bookings = await activeReservations([room._id], from, to);
     const peak = peakOccupied(room._id, { checkIn: from, checkOut: to }, bookings);
     if (inventory < peak) throw new AppError('Inventory cannot be below existing confirmed reservations or active holds', 409);
