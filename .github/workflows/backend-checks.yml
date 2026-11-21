@@ -24,3 +24,22 @@ jobs:
       - run: node --check src/server.js
       - run: npm test
       - run: npm run cf:build
+      - name: Smoke test Cloudflare Worker locally
+        run: |
+          printf 'MONGODB_URI="mongodb://127.0.0.1:27017/guestly-cloudflare-test"\nJWT_SECRET="guestly-cloudflare-local-test-secret-32-characters"\nPAYSTACK_SECRET_KEY="sk_test_fixture_key"\nCHECKIN_DOCUMENT_KEY="%s"\n' "$(node -e "process.stdout.write(require('node:crypto').randomBytes(32).toString('base64'))")" > .dev.vars
+          npm run cf:dev -- --port 8787 > /tmp/guestly-worker.log 2>&1 &
+          worker_pid=$!
+          trap 'kill "$worker_pid" 2>/dev/null || true' EXIT
+          ready=0
+          for attempt in $(seq 1 45); do
+            if curl -fsS --max-time 2 http://127.0.0.1:8787/health > /tmp/guestly-worker-health.json; then
+              ready=1
+              break
+            fi
+            sleep 1
+          done
+          if [ "$ready" -ne 1 ]; then
+            cat /tmp/guestly-worker.log
+            exit 1
+          fi
+          node -e "const r=require('/tmp/guestly-worker-health.json');if(r.success!==true||r.data.status!=='ok')process.exit(1)"
